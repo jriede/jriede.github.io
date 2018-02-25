@@ -52,6 +52,7 @@ class Flower {
     noStroke(); 
     fill(clr, alph);
     ellipse(x, y, 30, 30);
+    saveFrame();
   }
   
   void update() {
